@@ -1,14 +1,14 @@
 # Pushswap-checker
 Epitech mini project Pushswap-checker
 
-#The goal of this mini-project is to produce a program capable to check if a sequence of push_swap operations effectively sorts a list of integers.
-##INVOCATION
-Your program will take a list of signed integers on the command line, and read a single line of operations
-separated by spaces from the standard input.
-Your program will display “OK” on the standard output (followed by a newline) if the final result is a sorted
-list (and the second empty), or “KO” otherwise.
-If the result is negative, you are free to display additionnal informations after the “KO” string.
-In case of inadequate input, your program will return 84. Otherwise, it will return 0.
+The goal of this mini-project is to produce a program capable to check if a sequence of push_swap operations effectively sorts a list of integers.####
+
+The program take a list of signed integers on the command line, and read a single line of operations
+separated by spaces from the standard input.####
+The program will display "OK" on the standard output (followed by a newline) if the final result is a sorted
+list (and the second empty), or "KO" otherwise.####
+If the result is negative, you are free to display additionnal informations after the "KO" string.####
+In case of inadequate input, your program will return 84. Otherwise, it will return 0.#### ####
 
 ##Examples:
 ∇ Terminal - + x
