@@ -15,7 +15,7 @@ In case of inadequate input, your program will return 84. Otherwise, it will ret
 #### > echo "sa pb pb pb sa pa pa pa" | ./pushswap_checker 2 1 3 6 5 8
 OK
 #### > echo "sa pb pb pb" | ./pushswap_checker 2 1 3 6 5 8
-####KO: ([6,5,8],[3,2,1])
+#### KO: ([6,5,8],[3,2,1])
 #### 1
 
 #### REMINDER
@@ -37,9 +37,9 @@ l_b is empty).
 #### take the first element from l_a and move it to the first position on the l_b list (nothing will happen if
 l_a is empty).
 #### • ra
-####rotate l_a toward the beginning, the first element will become the last.
+#### rotate l_a toward the beginning, the first element will become the last.
 #### • rb
-####rotate l_b toward the beginning, the first element will become the last.
+#### rotate l_b toward the beginning, the first element will become the last.
 #### • rr
 #### ra and rb at the same time.
 #### • rra
