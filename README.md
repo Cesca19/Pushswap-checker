@@ -27,14 +27,14 @@ The objective of the game is to sort l_a.
 #### • sa
 #### swap the first two elements of l_a (nothing will happen if there aren’t enough elements).
 #### • sb
-####swap the first two elements of l_b (nothing will happen if there aren’t enough elements).
+#### swap the first two elements of l_b (nothing will happen if there aren’t enough elements).
 #### • sc
 #### sa and sb at the same time.
 #### • pa
-####take the first element from l_b and move it to the first position on the l_a list (nothing will happen if
+#### take the first element from l_b and move it to the first position on the l_a list (nothing will happen if
 l_b is empty).
 #### • pb
-####take the first element from l_a and move it to the first position on the l_b list (nothing will happen if
+#### take the first element from l_a and move it to the first position on the l_b list (nothing will happen if
 l_a is empty).
 #### • ra
 ####rotate l_a toward the beginning, the first element will become the last.
