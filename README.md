@@ -1,27 +1,29 @@
 # Pushswap-checker
 Epitech mini project Pushswap-checker
 
-The goal of this mini-project is to produce a program capable to check if a sequence of push_swap operations effectively sorts a list of integers.
-INVOCATION
+#The goal of this mini-project is to produce a program capable to check if a sequence of push_swap operations effectively sorts a list of integers.
+##INVOCATION
 Your program will take a list of signed integers on the command line, and read a single line of operations
 separated by spaces from the standard input.
 Your program will display “OK” on the standard output (followed by a newline) if the final result is a sorted
 list (and the second empty), or “KO” otherwise.
 If the result is negative, you are free to display additionnal informations after the “KO” string.
 In case of inadequate input, your program will return 84. Otherwise, it will return 0.
-Examples:
+
+##Examples:
 ∇ Terminal - + x
 ∼/B-FUN-300> echo “sa pb pb pb sa pa pa pa” | ./pushswap_checker 2 1 3 6 5 8
 OK
 ∼/B-FUN-300> echo “sa pb pb pb” | ./pushswap_checker 2 1 3 6 5 8
 KO: ([6,5,8],[3,2,1])
 1
-REMINDER
+
+##REMINDER
 The game is made up of two lists of numbers named l_a and l_b.
 In the beginning, l_b will be empty and l_a will contain a certain amount of positive or negative numbers.
 The objective of the game is to sort l_a.
 In order to accomplish this, you will only have access to the following operation:
-• sa
+#• sa
 swap the first two elements of l_a (nothing will happen if there aren’t enough elements).
 • sb
 swap the first two elements of l_b (nothing will happen if there aren’t enough elements).
